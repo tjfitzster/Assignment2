@@ -1,0 +1,39 @@
+<table class="ui fixed table">
+    <thead>
+    <tr>
+        <th>Weight</th>
+        <th>Chest</th>
+        <th>Thigh</th>
+        <th>Upper Arm</th>
+        <th>Waist</th>
+        <th>Hips</th>
+    </tr>
+    </thead>
+    <tbody>
+    #{list items:_assessmentlist.assessments, as:'assessment'}
+    <tr>
+        <td>
+            ${assessment.Weight}
+        </td>
+        <td>
+            ${assessment.Chest}
+        </td>
+        <td>
+            ${assessment.Thigh}
+        </td>
+        <td>
+            ${assessment.UpperArm}
+        </td>
+        <td>
+            ${assessment.Waist}
+        </td>
+        <td>
+            ${assessment.Hips}
+        </td>
+        <td>
+            <a href="/assessmentlist/${_assessmentlist.id}/deleteassessment/${assessment.id}" class="ui tiny red button">Delete Assessment</a>
+        </td>
+    </tr>
+    #{/list}
+    </tbody>
+</table>

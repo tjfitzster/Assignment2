@@ -1,0 +1,17 @@
+#{extends 'main.html' /}
+#{set title:'Dashboard' /}
+
+#{menu id:"dashboard"/}
+
+
+#{list items:assessmentlists, as:'assessmentlist'}
+<section class="ui segment">
+    <h2 class="ui header">
+        ${assessmentlist.client}
+        ${assessmentlist.age}
+    </h2>
+    #{addassessment assessmentlist:assessmentlist /}
+    #{listassessments assessmentlist:assessmentlist /}
+
+</section>
+#{/list}

@@ -1,0 +1,78 @@
+Assessment(a1):
+  Weight: 33
+  Chest: 22
+  Thigh: 8
+  UpperArm: 12
+  Waist: 13
+  Hips: 14
+Assessment(a2):
+  Weight: 19
+  Chest: 51
+  Thigh: 6
+  UpperArm: 12
+  Waist: 13
+  Hips: 14
+Assessment(a3):
+  Weight: 55
+  Chest: 61
+  Thigh: 8
+  UpperArm: 12
+  Waist: 13
+  Hips: 14 
+Assessment(a4):
+  Weight: 72
+  Chest: 94
+  Thigh: 8
+  UpperArm: 121
+  Waist: 131
+  Hips: 141
+Assessment(a5):
+  Weight: 99
+  Chest: 56
+  Thigh: 121
+  UpperArm: 131
+  Waist: 141
+  Hips: 151
+Assessment(a6):
+  Weight: 100
+  Chest: 33
+  Thigh: 12
+  UpperArm: 161
+  Waist: 171
+  Hips: 181
+Assessment(a7):
+  Weight: 22
+  Chest: 19
+  Thigh: 15
+  UpperArm: 123
+  Waist: 1234
+  Hips:  1123       
+
+Assessmentlist(as1):
+  client: TJ Fitzpatrick
+  age: 19
+  assessments:
+  - a1
+  - a2
+  - a3
+
+Member(m1):
+  firstname: TJ
+  lastname: Fitzpatrick
+  email: tj@fitzpatrick.com
+  password: secret
+
+Assessmentlist(as2):
+  client: Jim Fitzpatrick
+  age: 19
+  assessments:
+  - a4
+  - a5
+  - a6
+
+Member(m2):
+  firstname: Jim
+  lastname: Fitzpatrick
+  email: Jim@fitzpatrick.com
+  password: secret
+
